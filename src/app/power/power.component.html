@@ -1,0 +1,53 @@
+<div class="power">
+  <h4>Initial Power Level</h4>
+    <input type="number" min="0" max="100" [(ngModel)]="power" >
+  <div class="power-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjLbIp4HCtRqn_raoHZq_Qdl6qWtGulk2I4wV2ansc7YtOtA7Y" alt=""
+      width="200" height="#">
+  </div>
+</div>
+<div class="component-content">
+
+  <div class="box">
+    <div class="border">
+        <h5>Human Component</h5>
+    </div>
+    <app-human [power]="power"></app-human>
+  </div>
+  <div class="box">
+      <div class="border">
+          <h5>Saiyan Component</h5>
+      </div>
+      
+    <app-saiyan [power]="power"></app-saiyan>
+  </div>
+  <div class="box">
+      <div class="border">
+          <h5>Super Saiyan Component</h5>          
+      </div>
+      
+    <app-supersaiyan [power]="power"></app-supersaiyan>
+  </div>
+
+  <div class="box2">
+      <div class="border">
+          <h5>Super Saiyan Component Two</h5>
+      </div>
+      
+    <app-supersaiyantwo [power]="power"></app-supersaiyantwo>
+  </div>
+  <div class="box2">
+      <div class="border">
+          <h5>Super Saiyan Component Three</h5>
+        </div>
+      
+    <app-supersaiyanthree [power]="power"></app-supersaiyanthree>
+  </div>
+  <div class="box2">
+      <div class="border">
+        <h5>Super Saiyan Component Four</h5>
+      </div>
+       
+    <app-supersaiyanfour [power]="power"></app-supersaiyanfour>
+  </div>
+</div>

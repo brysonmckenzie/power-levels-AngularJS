@@ -1,14 +1,10 @@
 <div class="power">
   <div class="word">
+      <input type="number" min="0" max="100" [(ngModel)]="power" >      
     <h4>Initial Power Level</h4>
   </div>
-    <input type="number" min="0" max="100" [(ngModel)]="power">
-  
-  <div class="power-image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjLbIp4HCtRqn_raoHZq_Qdl6qWtGulk2I4wV2ansc7YtOtA7Y" alt=""
-      width="200" height="#">
-  </div>
-</div>
+    
+
 <div class="component-content">
 
   <div class="box">
@@ -54,3 +50,9 @@
     <app-supersaiyanfour [power]="power"></app-supersaiyanfour>
   </div>
 </div>
+<div class="power-image">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjLbIp4HCtRqn_raoHZq_Qdl6qWtGulk2I4wV2ansc7YtOtA7Y" alt=""
+    width="200" height="#">
+</div>
+</div>
+

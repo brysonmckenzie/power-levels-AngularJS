@@ -1,22 +1,41 @@
 * { 
     font-family: Arial, Helvetica, sans-serif 
   }
-  html {
-    overflow: hidden;
-    height: 100%;
-}
 
-body {
-    height: 100%;
-    overflow: auto;
-}
+  .ps{
+      text-align: center;
+      width: 960px;
+  }
+
+  .ps {
+    position: relative;
+    border-top: 3px solid black;
+  }
+  .ps:before, .ps-top-to-bottom:after {
+    content: "";
+    position: absolute;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image: -moz-linear-gradient(#000, transparent);
+    background-image: -o-linear-gradient(#000, transparent);
+    background-image: linear-gradient(#000, transparent);
+    top: -3px;
+    bottom: -3px;
+    width: 3px;
+  }
+  .head:before:before {
+    left: -3px;
+  }
+  .header:after {
+    right: -3px;
+  }
 
 
   div.container{
     margin: 0 auto;
     /* background: url(images/bg.jpg) no-repeat center center fixed;  */
     /* width: 960px; */
-    height: 1200px;
+    height: 700px;
     background-position: 40%;
     background-attachment:fixed;
     background-image: url(https://i.pinimg.com/736x/26/48/eb/2648ebdfd2ba93f1a40d1f39143352ec--dragon-z-dragon-ball-z.jpg);
@@ -25,6 +44,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     padding: 0px 40px 0px 40px;
+    overflow: hidden;
 }
     div.header {
         width: 800px;
@@ -32,6 +52,16 @@ body {
         background-color: yellow;
         margin: 0 auto;
         text-align: center;
+        /* position: fixed; */
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+        /* padding: 10px; */
+        background: white;
+        background-image: -webkit-linear-gradient(#000000, transparent);
+        background-image: -moz-linear-gradient(#000, transparent);
+        background-image: -o-linear-gradient(#000, transparent);
+        background-image: linear-gradient(#000, transparent);
+        
+    
     }
     div.content-power{
         margin-top: 50px;
@@ -39,3 +69,7 @@ body {
         height:400px;
         /* margin: 0 auto; */
     }
+h1{
+    color: yellow;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

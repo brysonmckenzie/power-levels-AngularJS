@@ -1,5 +1,5 @@
 # Dragon Ball Z Power Level
-![Power-Levels Screenshot](./power-level.png)
+![Power-Levels Screenshot](/power-level.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 

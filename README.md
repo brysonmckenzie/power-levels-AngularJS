@@ -1,5 +1,4 @@
 # Dragon Ball Z Power Level
-
 ![Power-Levels Screenshot](https://photos-4.dropbox.com/t/2/AAD0MUFgZ8ZNfuGBURQKLs4_ksPukrs2oQ-I5TFwLfzMLw/12/122407322/png/32x32/1/_/1/2/Screen%20Shot%202017-09-15%20at%2010.51.23%20AM.png/EPHrqF4Y6cMBIAIoAg/HDEZAr-y-u--MNeSMuStsV2WdiClmpZG112uXVwPZDQ?size=1600x1200&size_mode=3)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.

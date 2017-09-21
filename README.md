@@ -1,3 +1,6 @@
+[Alt Text](https://www.dropbox.com/s/qa4yht6lpdakadu/Screen%20Shot%202017-09-15%20at%2010.40.13%20AM.png?dl=0)
+
+
 # PowerLevel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
